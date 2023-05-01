@@ -1,0 +1,67 @@
+header{
+    background: #f5511c;
+}
+.carousel-inner img{
+    height: 500px;
+}
+.carousel-caption{
+    text-align: left;
+    top: 50%;
+}
+#offer .border{
+    background-color: #f5511c;
+}
+.title p{
+    letter-spacing: 5px;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+.title .border{
+    width: 100px;
+    border:2px solid rgb(245,97,49) !important;
+    border-radius: 20px;
+}
+#offer i{
+    color: #f5511c;
+}
+#application i{
+    color: #f5511c;
+}
+#application .parent{
+    overflow: hidden;
+}
+#application .img{
+    transition: all 0.5s ease;
+}
+#news h3{
+    color: #f5511c;
+}
+#news .parent{
+    overflow: hidden;
+}
+#news img{
+    transition: all 0.5s ease;
+}
+#news img:hover{
+    transform: scale(1.5);
+}
+footer h4{
+    color: white;
+}
+footer p{
+    color: white;
+}
+footer h5{
+    color: #f5511c;
+}
+footer i{
+    color:white;
+}
+footer button{
+    padding:15px;
+}
+
+footer button{
+    background-color: red;
+    border:none;
+}

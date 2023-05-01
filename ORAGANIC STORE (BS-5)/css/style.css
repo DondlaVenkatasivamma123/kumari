@@ -1,0 +1,9 @@
+#veg .parent{
+    overflow: hidden;
+}
+#veg img{
+    transition: all 0.5sec ease;
+}
+#veg img:hover{
+    transform: scale(1.5);
+}

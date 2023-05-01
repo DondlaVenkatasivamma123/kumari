@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+    i{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav{
+        background-color:orangered!important;
+    }
+    nav .nav-link{
+        color: white !important;
+    }
+    .carousel-indicators li{
+        background-color: red !important;
+    }
+    #about .border{
+        height: 5px;
+        width: 100px;
+    }
+    #about .style{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color:orangered!important;
+        position: relative;
+        margin: auto;
+    }
+    #about .style i{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transform: translate(-25% -25%);
+    }
+    #test .border{
+        height: 5px;
+        width: 100px;
+    }   
+    #test .content{
+        background-color:orangered!important;
+    }
+    #news .border{
+        height: 5px;
+        width: 100px;
+    }
+    #news .post{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    #news .post1{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    #news .blog{
+        position: relative;
+    }
+    #contact .jumbotron{
+        background-color:orangered!important;
+    }
+    #banner .carousel-indicators{
+        position:relative;
+        top:280px;
+        
+    }
+    </style>
+</head>
+<body>
+    <!--Nav section start-->
+    <section id="nav">
+        <div class="bg-dark p-2">
+            <div class="container">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa-solid fa-envelope-open me-2"></i>info@Example.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa-solid fa-phone me-2"></i>Call Us:+12 345 678</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link text-white" href="#">Mon-Fri:9.00Am to 6.Pm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Nav Section End--> 
+    <!--Navbar section Start-->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#"><h1><i class="fa-solid fa-utensils me-2"></i>Crispy</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-light  my-2 my-sm-0" type="submit">Call Us</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--Navbar Section End-->
+    <!--Banner Section Start-->
+    <section id="banner" class="bg-light">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#demo" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#demo" data-bs-slide-to="2"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h2 class="display-4">Delicious&Crispy</h2>
+                                <h3>Recipies....</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure hic modi quidem maiores, tempora veniam vitae iusto eum accusamus, exercitationem ex necessitatibus assumenda rerum! Consequuntur sit tenetur quia minus deleniti?</p>
+                                <button class="btn btn-dark" data-bs-target="#mode1" data-bs-toggle="collapse" >Read More</button>
+                                <div class="collapse" id="mode1">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam, eveniet odit voluptatem inventore maxime ullam vero eos explicabo fugiat incidunt quos dignissimos modi voluptatum, dolorum dolore molestiae consectetur velit.</p>
+                                </div>
+                                <button class="btn btn-danger">Contact Us</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h2 class="display-4">Delicious&Crispy</h2>
+                                <h3>Recipies....</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure hic modi quidem maiores, tempora veniam vitae iusto eum accusamus, exercitationem ex necessitatibus assumenda rerum! Consequuntur sit tenetur quia minus deleniti?</p>
+                                <button class="btn btn-dark" data-bs-target="#mode2" data-bs-toggle="collapse">Read More</button>
+                                <div class="collapse" id="mode2">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam, eveniet odit voluptatem inventore maxime ullam vero eos explicabo fugiat incidunt quos dignissimos modi voluptatum, dolorum dolore molestiae consectetur velit.</p>
+                                </div>
+                                <button class="btn btn-danger">Contact Us</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h2 class="display-4">Delicious&Crispy</h2>
+                                <h3>Recipies....</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure hic modi quidem maiores, tempora veniam vitae iusto eum accusamus, exercitationem ex necessitatibus assumenda rerum! Consequuntur sit tenetur quia minus deleniti?</p>
+                                <button class="btn btn-dark"  data-bs-target="#mode3" data-bs-toggle="collapse">Read More</button>
+                                <div class="collapse" id="mode3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam, eveniet odit voluptatem inventore maxime ullam vero eos explicabo fugiat incidunt quos dignissimos modi voluptatum, dolorum dolore molestiae consectetur velit.</p>
+                                </div>
+                                <button class="btn btn-danger">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12">
+                    <img src="images/1.jpg" height="300px" width="300px" class="rounded-circle d-block mx-auto mt-4 image-fluid"alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Banner Section End-->
+    <!--About Section Start-->
+    <section id="about">
+        <div class="container">
+            <div class="text-center mt-3">
+                <h1>About Us</h1>
+                <div class="border mx-auto bg-dark rounded"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-12">
+                    <div>
+                        <h3>Enjoy The Greatest Pleasure In Our Hotel</h3>
+                        <p class="mt-5px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore natus non, delectus nostrum tenetur explicabo aliquam quia soluta inventore eum fugiat ea quae nemo aliquid sit eos. Quaerat, esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam commodi debitis, dolores quasi maiores eaque neque facilis esse! Aperiam at ad optio rerum impedit exercitationem vitae qui necessitatibus consequuntur.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm -6 col-6">
+                            <div class="style  text-white">
+                                <i class="fa-solid fa-hospital"></i>
+                            </div>
+                            <h6 class="text-center">Healthy</h6>
+                        </div>
+                        <div class="col-md-3 col-sm -6 col-6">
+                            <div class="style  text-white">
+                                <i class="fa-solid fa-mortar-pestle"></i>
+                            </div>
+                            <h6 class="text-center">Spicy&Hot</h6>
+                        </div>
+                        <div class="col-md-3 col-sm -6 col-6">
+                            <div class="style  text-white">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <h6 class="text-center">Crunchy</h6>
+                        </div>
+                        <div class="col-md-3 col-sm -6 col-6">
+                            <div class="style  text-white">
+                                <i class="fa-solid fa-mug-saucer"></i>
+                            </div>
+                            <h6 class="text-center">Recipie</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-12">
+                    <img src="images/6.jpg" height="80%" width="400px" class="mt-3 mx-auto d-block"alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+    <!--Testimonials Section Start-->
+    <section id="test">
+        <div class="container">
+            <div class="text-center">
+                <h1>Testimonials</h1>
+                <div class="border mx-auto bg-dark rounded"></div>
+            </div>
+            <div class="row m-3">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="content text-white p-4">
+                            <i class="fa-solid fa-quote-right p-2"></i><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni expedita voluptatem optio architecto debitis eveniet maiores obcaecati magnam officia deleniti, perferendis autem commodi.
+                        </div>
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="images/8.jpg" class="align-self-center mr-3 rounded-circle" style="width:100px;height:80px">
+                                <div class="media-body">
+                                    <h4>Mary Jane</h4>
+                                    <p>-March 3,2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="content text-white p-4">
+                            <i class="fa-solid fa-quote-right p-2"></i><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni expedita voluptatem optio architecto debitis eveniet maiores obcaecati magnam officia deleniti, perferendis autem commodi.
+                        </div>
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="images/4C.webp" class="align-self-center mr-3 rounded-circle" style="width:100px;height:80px">
+                                <div class="media-body">
+                                    <h4>Mary Jane</h4>
+                                    <p>-March 3,2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="content text-white p-4">
+                            <i class="fa-solid fa-quote-right p-2"></i><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni expedita voluptatem optio architecto debitis eveniet maiores obcaecati magnam officia deleniti, perferendis autem commodi.
+                        </div>
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="images/7.jpg" class="align-self-center mr-3 rounded-circle" style="width:100px;height:80px">
+                                <div class="media-body">
+                                    <h4>Mary Jane</h4>
+                                    <p>-March 3,2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <!--Testimonials Section End-->
+    <!--News Section Start-->
+    <section id="news">
+        <div class="container">
+            <div class="text-center">
+                <h1>Latest News</h1>
+                <div class="border mx-auto bg-dark rounded"></div>
+            </div>
+            <div class="row m-3">
+                <div class="col-md-7 mb-4">
+                    <div class="blog">
+                        <img src="images/6.jpg" class=" h-100 w-100"alt="">
+                        <div class="post d-inline-block px-4 py-2 bg-white border-dark">Blog#1</div>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4 align-self-center">
+                    <p>March 8,2019</p>
+                    <h5>Nullam Dui Mi Vulputate AC Cursus</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem sed fuga vel quisquam voluptatibus autem maiores culpa aliquid, deleniti architecto dolores atque beatae sapiente quidem enim corporis. Fugit, inventore.</p>
+                    <button class="btn btn-dark"  data-bs-target="#mode1" data-bs-toggle="collapse">View Post</button>
+                    <div class="collapse"id="mode1" >
+                        <img src="images/2.jpg"  class="align-self-center mr-3 rounded-circle" style="width:100px;height:80px"alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4 align-self-center">
+                    <p>March 8,2019</p>
+                    <h5>Nullam Dui Mi Vulputate AC Cursus</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem sed fuga vel quisquam voluptatibus autem maiores culpa aliquid, deleniti architecto dolores atque beatae sapiente quidem enim corporis. Fugit, inventore.</p>
+                    <button class="btn btn-dark"  data-bs-target="#mode1" data-bs-toggle="collapse">View Post</button>
+                    <div class="collapse"id="mode1" >
+                        <img src="images/3C.webp"  class="align-self-center mr-3 rounded-circle" style="width:100px;height:80px"alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 mb-4">
+                    <div class="blog">
+                        <img src="images/5.jpg" class="h-100 w-100"alt="">
+                        <div class="post1 d-inline-block px-4 py-2 bg-white border-dark">Blog#2</div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--News Section End-->
+    <!--Contact section Start-->
+    <section id="contact" class="text-center text-white">
+        <div class="jumbotron rounded-0 m-2 p-5">
+            <h1>Eat Healthy And Delicious Crispy From Our Hotel</h1>
+            <p>Call Us To Book Your Table Today Or To Order Your Food</p>
+            <h1>+1 123 456 789</h1>
+        </div>
+    </section>
+    <!--Contact section End-->
+    <!--Footer Section Start-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row mt-5 bg-dark text-white">
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="style text-white p-5">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h4>About Crispy</h4>
+                        <p>Once Consequat sapien ut cursus rhoncus.Nullam dui mi,Vulputate ac metus semper quis luctus sed.</p>
+                        <h5>Trusted by<span style="color:red">500+ People</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="style text-white p-5">
+                        <h4>Address Info</h4>
+                        <p><i class="fa-solid fa-location-dot mx-3"></i>64d canal street TT 3356 Newyark,NY</p>
+                        <h5><i class="fa-solid fa-phone"></i> +1(234)567 9001</h5>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="style text-white p-5">
+                    <h4>Quick Link</h4>
+                    <p>Order Online Healthy Crispy Support Helpline Privacy Policy</p>
+                </div>
+            </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="style text-white p-5">
+                        <h4>Subscribe Us</h4>
+                        <p>Subscirbe To Our Newsletter</p>
+                        <form action="" class="form-inline">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Your Email Here">
+                                <div class="d-grid">
+                                    <button type="button" class="btn btn-danger btn-red">Subscribe</button>
+                                  </div>
+                                <div class="m-2">
+                                    <h4><i class="fa-brands fa-facebook mx-2"></i>
+                                        <i class="fa-brands fa-twitter mx-2"></i>
+                                        <i class="fa-regular fa-life-ring mx-2"></i>
+                                        <i class="fa-regular fa-registered mx-2"></i>
+                                        <i class="fa-brands fa-google-plus-g mx-2"></i>
+                                    </h4>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="p-3 text-center text-white bg-dark">&copy;2019 Crispy.All Rights Reserved|Design by W3layouts</div>
+    <!--Footer Section End-->
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

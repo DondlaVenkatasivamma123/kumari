@@ -1,0 +1,32 @@
+#services .row .style i{
+    font-size: 35px;
+}
+#blog .row .card .card-body{
+    background-color: rgb(218, 218, 218);
+}
+#blog .row .card .card-body .btn{
+    background-color: rgb(218, 218, 218);
+}
+
+#blog .row .btn1{
+    position:absolute;
+    top:-10px;
+    left:5px;
+    box-sizing: 10px;
+    background-color: yellow;
+    box-shadow: -2px -2px 1px rgb(83, 252, 77),3px 0px 2px greenyellow;
+}
+#blog .row{
+    position:relative;
+}
+#foot{
+    background-color:rgb(21, 236, 21);
+}
+
+.carousel .carousel-inner .carousel-caption{
+    position:absolute;
+    top:300px;
+} 
+footer img{
+    background: url()center no-repeat;
+}
